@@ -1,14 +1,24 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import ApiReq from '../views/ApiReq.vue'
+import BootstrapVue from 'bootstrap-vue';
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap-vue/dist/bootstrap-vue.css';
 
-Vue.use(VueRouter)
+
+Vue.use(VueRouter).use(BootstrapVue);
 
 const routes = [
   {
     path: '/',
     name: 'home',
     component: HomeView
+  },
+  {
+    path: '/api',
+    name: 'api',
+    component: ApiReq
   },
   {
     path: '/about',

@@ -1,0 +1,83 @@
+$white: #fff;
+$purple-disabled: #E0E0F2;
+$text-grey: #7F7F88;
+$about-nav:#555560;
+$owner-color: #F4F0FF;
+$light-blue: #E1EFFF;
+$light-purp: #F7F4FF;
+$border-purp: #DDD7ED;
+$purple-nav: #6053b1;
+$line-nav : #4A2F9B;
+$drpurple-nav: #3b2186;
+$purple-focus: #2B1765;
+$footer-bg: #1E0C51;
+$text-color: #2A2A38;
+$bg-dark: #2B146C;
+$yellow-m:#E5E0CD;
+$yellow-light: #F9F5E6;
+$brand-yellow: #f2cf7e;
+$yellow-focus: #E5C270;
+$yellow-disabled:#FDF8EC;
+$black: #000000;
+$text-danger: #C95C54;
+$danger-hover: #a3342c;
+.custom-container {
+  max-width: fit-content;
+  margin: 0 auto;
+  display: flex;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .custom-container {
+    max-width: 90%;
+    margin:0 auto;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .custom-container {
+    max-width: 90%;
+    margin:0 auto;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .custom-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+  }
+}
+h1 {
+  font-size: 52px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 700;
+line-height: 64px;
+}
+ h2 {
+  /* headlines / H2 */
+  font-size: 36px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+}
+h3 {
+  font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+h4 {
+  color: $white;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+a {
+  text-decoration: none;
+  &:hover {
+    text-decoration: none!important;
+  }
+}
+// .col-1, .col-2, .col-3,.col-4,.col-5,.col-6, .col-7, .col-8,.col-9, .col-10,.col-11, .col-12   {
+//   padding: 0;
+// }
